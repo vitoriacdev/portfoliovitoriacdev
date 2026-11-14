@@ -251,7 +251,7 @@ const PR = [
       pt: "Enciclopédia web inspirada na Wikipédia sobre a série *The Empyrean*, com informações sobre personagens, livros e adaptação para TV.",
       en: "A Wikipedia-inspired web encyclopedia about *The Empyrean* series, covering its characters, books, and TV adaptation."
     },
-    techs: ["js", "html", "css"],             // opções: js, ts, html, css, git, ux
+    techs: ["html", "css"],             // opções: js, ts, html, css, git, ux
     foto: "assets/images/copywikipedia.png",   // print do projeto (opcional)
     github: "https://github.com/vitoriacdev/copywikipedia",      // troque pelo seu link
     ao_vivo: "https://vitoriacdev.github.io/copywikipedia/",     // opcional: sem ele, o botão some

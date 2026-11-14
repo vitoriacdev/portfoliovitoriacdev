@@ -243,15 +243,40 @@ const PR = [
       ]
     }
   },
-
-  {
-    // exemplo mínimo: só o que você quiser preencher
-    nome: "Terceiro Projeto",
-    ano: "2025",
-    techs: ["ts", "css"],
-    github: "https://github.com/vitoriacdev"
+   {
+    nome: "Cópia da Wikipedia",                 // título do projeto
+    ano: "2026",
+    tipo: "Web",                              // Web, Mobile, Design...
+    descricao: {                              // pode ser só um texto: descricao: "..."
+      pt: "Enciclopédia web inspirada na Wikipédia sobre a série *The Empyrean*, com informações sobre personagens, livros e adaptação para TV.",
+      en: "A Wikipedia-inspired web encyclopedia about *The Empyrean* series, covering its characters, books, and TV adaptation."
+    },
+    techs: ["js", "html", "css"],             // opções: js, ts, html, css, git, ux
+    foto: "assets/images/copywikipedia.png",   // print do projeto (opcional)
+    github: "https://github.com/vitoriacdev/copywikipedia",      // troque pelo seu link
+    ao_vivo: "https://vitoriacdev.github.io/copywikipedia/",     // opcional: sem ele, o botão some
+    desafios: {                               // cada item vira um número (01, 02...)
+      pt: [
+        "Organizar bastante conteúdo em seções navegáveis e manter imagens e estilos carregando pelos caminhos corretos.",
+        "Criar uma interface limpa e agradável, com cores e fontes que remetam à Wikipédia."
+      ],
+      en: [
+        "Organizing extensive content into navigable sections and ensuring images and styles load from the correct paths.",
+        "Creating a clean and pleasant interface with colors and fonts reminiscent of Wikipedia."
+      ]
+    },
+    decisoes: {
+      pt: [
+        "Usar HTML e CSS básicos, layout em três colunas e links internos para facilitar a navegação.",
+        "Usar cores neutras e fontes serifadas para remeter à Wikipédia."
+      ],
+      en: [
+        "Use basic HTML and CSS, a three-column layout, and internal links for easier navigation.",
+        "Use neutral colors and serif fonts to evoke the feel of Wikipedia."
+      ]
+    }
   },
-
+  
   // Para adicionar outro: coloque uma vírgula depois do último },
   // copie um bloco inteiro { ... } e cole aqui.
 ];
